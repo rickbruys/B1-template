@@ -200,7 +200,7 @@ footer{
 }
 
 .hidden-on-lg{
-  display: block;
+  display: none;
 }
 .hidden-on-sm{
   display: block;
