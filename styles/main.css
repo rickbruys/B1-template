@@ -85,7 +85,7 @@ table th{
 }
 
 table thead, table tbody{
-  border-bottom: 1px solid #303030;
+  /*border-bottom: 1px solid #303030;*/
 }
 
 table th.slim{
@@ -124,6 +124,15 @@ article h2.rides{
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
+}
+.article_cart{
+  border: none;
+}
+.article_cart h2{
+  border-left: 5px solid #27AE60;
+  text-align: left;
+  margin: 15px 5px;
+  padding: 0px 6px;
 }
 .row{
   display: flex;
@@ -205,7 +214,15 @@ footer{
 .hidden-on-sm{
   display: block;
 }
-
+.last_tr hr{
+  text-decoration: none;
+}
+.last_tr{
+  border-top: 1px solid black;
+}
+.first_tr{
+  border-bottom: 1px solid black;
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
