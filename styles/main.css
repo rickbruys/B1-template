@@ -148,6 +148,14 @@ article h2.open-forever{
   text-align: center;
 }
 
+.open-forever, .rides, .accessibility, .fun-for-family{
+  text-shadow:
+    0 0 0 #FCFCFC,
+    -1px -1px 0 #FCFCFC,
+    1px -1px 0 #FCFCFC,
+    -1px 1px 0 #FCFCFC,
+    1px 1px 0 #FCFCFC;
+}
 
 .product span{
   display: block;
