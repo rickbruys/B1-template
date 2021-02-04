@@ -128,7 +128,7 @@ article h2.open-forever{
 .article_cart{
   border: none;
 }
-.article_cart h2, .payment h2{
+.article_cart h2, .payment h2, .product h2{
   border-left: 5px solid #27AE60;
   text-align: left;
   margin: 15px 5px;
@@ -173,7 +173,7 @@ article h2.open-forever{
 }
 .product img{
   width: 100%;
-  max-width: 250px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -232,7 +232,30 @@ footer{
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
-
+.product_page span{
+  font-weight: bold;
+}
+.product_page{
+  background: #FCFCFC;
+  display: flex;
+  flex-direction: row;
+}
+.about_product{
+  display: flex;
+  flex-direction: column;
+}
+.product_page img{
+  width: 500px;
+}
+.about_product{
+  display: inline;
+}
+.product_button{
+  font-weight: bold;
+}
+.about_product{
+  margin-top: 73px;
+}
 /*==============compatible===============*/
 
 @media (max-width: 480px) {
@@ -241,6 +264,9 @@ footer{
     }
   .hidden-on-sm{
     display: none;
+  }
+  .product_page{
+    flex-direction: column;
   }
 }
 
