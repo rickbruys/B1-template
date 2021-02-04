@@ -128,7 +128,7 @@ article h2.open-forever{
 .article_cart{
   border: none;
 }
-.article_cart h2{
+.article_cart h2, .payment h2{
   border-left: 5px solid #27AE60;
   text-align: left;
   margin: 15px 5px;
@@ -192,9 +192,12 @@ button{
 }
 
 .sidy-by-side{
-  
+  display: flex;
+  justify-content: space-between;
 }
-
+.payment{
+  border: none;
+}
 .description{
   flex: 1;
 }
