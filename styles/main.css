@@ -200,7 +200,7 @@ footer{
 }
 
 .hidden-on-lg{
-  display: none;
+  display: block;
 }
 .hidden-on-sm{
   display: block;
@@ -215,7 +215,12 @@ footer{
 /*==============compatible===============*/
 
 @media (max-width: 480px) {
-
+  .hidden-on-lg {
+    display: block;
+    }
+  .hidden-on-sm{
+    display: none;
+  }
 }
 
 /* 
